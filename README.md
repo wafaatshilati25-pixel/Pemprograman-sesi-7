@@ -29,7 +29,7 @@ project-pbf/
 | PUT | /api/barang/:id | Mengubah barang | 200 / 404 |
 | DELETE | /api/barang/:id | Menghapus barang | 200 / 404 |
 
-### Contoh Request Body (POST / PUT)
+### Request Body (POST / PUT)
 ```json
 {
   "kode": "BRG-004",
@@ -40,7 +40,7 @@ project-pbf/
 }
 ```
 
-### Contoh Response (POST)
+###  Response (POST)
 ```json
 {
   "success": true,
@@ -56,7 +56,7 @@ project-pbf/
 }
 ```
 
-### Contoh Response (Data Tidak Ditemukan – 404)
+###  Response (Data Tidak Ditemukan – 404)
 ```json
 {
   "success": false,
