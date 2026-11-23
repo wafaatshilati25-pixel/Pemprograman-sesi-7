@@ -1,0 +1,16 @@
+{
+  "name": "project-pbf",
+  "version": "1.0.0",
+  "description": "REST API Sistem Inventaris Barang menggunakan Node.js dan Express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Wafa Atshila Restu Gieviena",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
